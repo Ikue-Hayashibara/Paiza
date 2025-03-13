@@ -1,4 +1,4 @@
-const main = (input) =>{
+const main = (input) => {
     const s = input;
     for (let i = 0; i < s; i++) {
         console.log("paiza");

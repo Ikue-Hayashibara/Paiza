@@ -1,4 +1,4 @@
-const main = (input) =>{
+const main = (input) => {
     const s = input;
     console.log(s);
 }

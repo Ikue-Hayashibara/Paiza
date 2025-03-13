@@ -1,4 +1,4 @@
-const main = (input) =>{
+const main = (input) => {
     const lines = input.split("\n");
     const lines2 = lines[1].split(" ");
     const n =lines[0];

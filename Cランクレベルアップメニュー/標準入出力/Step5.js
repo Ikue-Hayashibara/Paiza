@@ -1,5 +1,5 @@
 
-const main = (input) =>{
+const main = (input) => {
     const n = input;
     let msg = "";
     for (let i = 0; i < n; i++) {

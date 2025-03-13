@@ -1,8 +1,8 @@
-const main = (input) =>{
+const main = (input) => {
     const lines = input.split("\n");
     const n = lines[0];
     
-    for (var i = 1; i <= n; i++) {
+    for (let i = 1; i <= n; i++) {
         const strLength = lines[i].length;
         console.log(strLength)
     }
