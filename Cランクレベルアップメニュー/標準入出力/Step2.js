@@ -4,7 +4,7 @@ const main = (input) =>{
         console.log("paiza");
         
     }
-    console.log(s);
+    
 }
 
 main(require("fs").readFileSync("/dev/stdin","utf-8"));
