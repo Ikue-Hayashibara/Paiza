@@ -3,4 +3,4 @@ const main = (input) =>{
     console.log(s);
 }
 
-main(require("fs").readFileSystem("/dev/stdin","utf-8"));
+main(require("fs").readFileSync("/dev/stdin","utf-8"));
