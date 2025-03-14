@@ -1,0 +1,1 @@
+let answer = sLines.map(item => item.indexOf(cLines.map(citem => citem))> 0 ? "YES" : "NO");
