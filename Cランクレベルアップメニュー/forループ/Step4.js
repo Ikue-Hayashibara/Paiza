@@ -1,10 +1,3 @@
-// 2
-// c
-// d
-// 2
-// cat
-// dog
-
 const main = (input) => {
     
     const lines = input.trim().split("\n");
@@ -13,9 +6,25 @@ const main = (input) => {
     const sLines = lines.slice(n + 2);
     const cLines = lines.slice(1,n + 1);
 
-    let answer = sLines.map(item => item.indexOf(cLines.map(citem => citem))> 0 ? "YES" : "NO");
+    for(const c of cLines){
 
-    //answer.forEach(item => console.log(item));
+        for(const s of sLines){
+            
+            console.log(s.indexOf(c) >= 0 ? "YES" : "NO");
+
+        }
+
+    }
+
+
+
+    // const answer = cLines.flatMap(char => 
+    //     sLines.map(string => 
+    //         string.indexOf(char) >= 0 ? "YES" : "NO"
+    //     )
+    // );
+    
+    // answer.forEach(item => console.log(item));
     
 }
 
