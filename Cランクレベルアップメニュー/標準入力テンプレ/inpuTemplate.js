@@ -1,6 +1,6 @@
 const main = (input) => {
-    const lines = input.split("\n");
     
+    const inputArr = input.trim().split("\n");
 
 }
 
