@@ -1,0 +1,1 @@
+puts Array.new(gets.to_i) { gets.to_s.chomp.length }
