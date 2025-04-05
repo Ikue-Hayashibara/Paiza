@@ -1,0 +1,1 @@
+print gets.chomp.rjust(3,"0")
