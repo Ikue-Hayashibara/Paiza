@@ -1,0 +1,1 @@
+print Array.new(gets.to_i) { "paiza "}.join.strip
