@@ -6,7 +6,7 @@
 
 seireki = gets.to_i
 years = gets.to_i
-for i in seireki..seireki + years -1
+for i in seireki..seireki + years - 1
     showa = i - 1925
     puts "西暦#{i}年は、昭和#{showa}年です。"
 end

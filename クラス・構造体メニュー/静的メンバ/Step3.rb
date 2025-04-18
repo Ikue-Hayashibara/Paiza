@@ -36,7 +36,7 @@ command.each_with_index do |c, i|
   elsif c.include?("getname")
       user_class_arr[c[1].to_i - 1].get_name
   else
-      c[0] == "change_num" ? send(c[0], c[1].to_i, c[2].to_i, user_class_arr) : send(c[0], c[1].to_i, c[2], user_class_arr)
-  
+      c[0] == "change_num" ? send(c[0], c[1].to_i, c[2].to_i, user_class_arr) :
+                             send(c[0], c[1].to_i, c[2], user_class_arr)
   end
 end
