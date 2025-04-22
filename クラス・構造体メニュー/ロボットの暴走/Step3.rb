@@ -89,3 +89,4 @@ end
 
 players.delete_if { |player| player.hp <= 0 }
 puts players.size
+
