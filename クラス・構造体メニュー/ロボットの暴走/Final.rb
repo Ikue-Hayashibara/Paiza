@@ -43,3 +43,4 @@ k.times do
 end
 
 robots.each { |robot| puts "#{robot.x} #{robot.y} #{robot.l}" }
+
